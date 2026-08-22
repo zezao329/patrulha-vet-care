@@ -1,5 +1,6 @@
-import { Clock, Instagram, Mail, MapPin, PawPrint, Phone } from "lucide-react";
+import { Clock, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { CONTATO, waLink, WHATSAPP_DISPLAY } from "@/lib/site";
+import logoAsset from "@/assets/logo-vet.jpg.asset.json";
 
 export function Footer() {
   return (
@@ -7,8 +8,14 @@ export function Footer() {
       <div className="container-page grid gap-10 md:grid-cols-3">
         <div>
           <p className="flex items-center gap-2 text-xl font-extrabold">
-            <span className="grid h-10 w-10 place-items-center rounded-full bg-primary">
-              <PawPrint className="h-5 w-5 text-primary-foreground" aria-hidden="true" />
+            <span className="grid h-10 w-10 place-items-center overflow-hidden rounded-full bg-primary">
+              <img
+                src={logoAsset.url}
+                alt="Patrulha Vet"
+                width={40}
+                height={40}
+                className="h-full w-full object-cover"
+              />
             </span>
             Patrulha Vet
           </p>
