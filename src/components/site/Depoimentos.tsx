@@ -36,7 +36,7 @@ const depoimentos = [
 export function Depoimentos() {
   const [i, setI] = useState(0);
   const total = depoimentos.length;
-  const atual = depoimentos[i];
+  const atual = depoimentos[i]!;
 
   return (
     <section id="depoimentos" className="bg-surface py-24">
