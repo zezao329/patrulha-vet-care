@@ -55,9 +55,7 @@ export function Navbar() {
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
         >
-          {open ? <Menu className="h-6 w-6" /> : <X className="hidden" />}
-          {open ? <X className="hidden" /> : null}
-          {!open ? null : null}
+          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </nav>
 
