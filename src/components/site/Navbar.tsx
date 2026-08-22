@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Menu, X, PawPrint } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { waLink } from "@/lib/site";
+import logoAsset from "@/assets/logo-vet.jpg.asset.json";
 
 const links = [
   { href: "#sobre", label: "Sobre" },
@@ -20,8 +21,14 @@ export function Navbar() {
         className="container-page flex h-18 items-center justify-between py-3"
       >
         <a href="#hero" className="flex items-center gap-2 font-extrabold text-lg text-ink">
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-primary">
-            <PawPrint className="h-5 w-5 text-primary-foreground" aria-hidden="true" />
+          <span className="grid h-10 w-10 place-items-center overflow-hidden rounded-full bg-primary">
+            <img
+              src={logoAsset.url}
+              alt="Patrulha Vet"
+              width={40}
+              height={40}
+              className="h-full w-full object-cover"
+            />
           </span>
           Patrulha&nbsp;<span className="text-primary-deep">Vet</span>
         </a>
