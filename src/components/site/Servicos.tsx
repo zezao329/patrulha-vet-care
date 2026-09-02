@@ -12,7 +12,7 @@ import type { LucideIcon } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { waLink } from "@/lib/site";
 
-type Servico = { icone: LucideIcon; titulo: string; texto: string };
+type Servico = { icone: LucideIcon; titulo: string; texto: string; emBreve?: boolean };
 
 const servicos: Servico[] = [
   {
