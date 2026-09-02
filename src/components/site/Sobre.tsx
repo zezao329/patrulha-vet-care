@@ -60,8 +60,8 @@ export function Sobre() {
               aria-hidden="true"
             />
             <img
-              src={equipeImg}
-              alt="Dra. Kamila Salgado e Dr. Mateus Salgado, fundadores da Patrulha Vet, com um cão e um gato"
+              src={equipeAsset.url}
+              alt="Dra. Kamila Salgado e Dr. Mateus Salgado, fundadores da Patrulha Vet, na recepção da clínica"
               width={1200}
               height={1200}
               loading="lazy"
