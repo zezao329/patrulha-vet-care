@@ -1,4 +1,4 @@
-import equipeImg from "@/assets/equipe.jpg";
+import equipeAsset from "@/assets/equipe-patrulha.jpg.asset.json";
 import { Reveal } from "./Reveal";
 
 const numeros = [
