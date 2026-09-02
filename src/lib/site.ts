@@ -9,5 +9,5 @@ export const CONTATO = {
   endereco: "Av. 01, Q 35, N13 — Nova Manaus, Iranduba (AM)",
   instagram: "patrulha_vet",
   instagramUrl: "https://instagram.com/patrulha_vet",
-  horario: "Seg a Sex, 8h às 19h · Sábado, 8h às 17h",
+  horario: "Seg a Sex, 8h às 19h · Sábado, 8h às 17h · Domingo, 8h às 17h",
 };
