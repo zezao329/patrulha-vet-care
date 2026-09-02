@@ -24,9 +24,10 @@ export function Hero() {
         </p>
 
         <h1 className="mx-auto max-w-4xl text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
-          Resultados excepcionais no cuidado do seu pet, com{" "}
+          Patrulha Vet: clínica veterinária e pet shop em Iranduba (AM) com{" "}
           <span className="text-primary">segurança e carinho</span> em cada atendimento
         </h1>
+
 
         <p className="mx-auto mt-6 max-w-2xl text-base text-white/85 sm:text-lg">
           Para quem considera o pet parte da família: atendimento veterinário completo, higiene,

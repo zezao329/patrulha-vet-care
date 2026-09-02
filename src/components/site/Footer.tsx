@@ -88,10 +88,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#depoimentos" className="hover:text-primary">
-                  Depoimentos
+                <a href="#video" className="hover:text-primary">
+                  Vídeo
                 </a>
               </li>
+
             </ul>
           </nav>
         </div>

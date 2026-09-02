@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
             addressRegion: "AM",
             addressCountry: "BR",
           },
-          openingHours: ["Mo-Fr 08:00-19:00", "Sa 08:00-17:00"],
+          openingHours: ["Mo-Fr 08:00-19:00", "Sa 08:00-17:00", "Su 08:00-17:00"],
           sameAs: ["https://instagram.com/patrulha_vet"],
         }),
       },
