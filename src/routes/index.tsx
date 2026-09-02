@@ -4,7 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { Sobre } from "@/components/site/Sobre";
 import { Servicos } from "@/components/site/Servicos";
 import { Diferenciais } from "@/components/site/Diferenciais";
-
+import { VideoPromocional } from "@/components/site/VideoPromocional";
 import { CtaFinal } from "@/components/site/CtaFinal";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
@@ -58,7 +58,7 @@ function Index() {
         <Sobre />
         <Servicos />
         <Diferenciais />
-        
+        <VideoPromocional />
         <CtaFinal />
       </main>
       <Footer />
