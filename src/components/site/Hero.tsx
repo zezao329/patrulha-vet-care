@@ -1,5 +1,5 @@
 import { MessageCircle, Phone, Star } from "lucide-react";
-import heroImg from "@/assets/hero-vet.jpg";
+import heroAsset from "@/assets/hero-patrulha.jpg.asset.json";
 import { waLink, WHATSAPP_DISPLAY } from "@/lib/site";
 
 export function Hero() {
