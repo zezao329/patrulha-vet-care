@@ -6,11 +6,11 @@ export function Hero() {
   return (
     <section id="hero" className="relative isolate flex min-h-[92vh] items-center">
       <img
-        src={heroImg}
-        alt="Médica veterinária examinando com carinho um cão golden retriever em clínica moderna"
-        width={1920}
-        height={1280}
-        className="absolute inset-0 -z-20 h-full w-full object-cover"
+        src={heroAsset.url}
+        alt="Equipe da Patrulha Vet atendendo tutores e seus pets em ação comunitária em Iranduba"
+        width={1200}
+        height={1600}
+        className="absolute inset-0 -z-20 h-full w-full object-cover object-[50%_35%]"
       />
       <div
         className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,oklch(0.18_0.03_165/0.82),oklch(0.18_0.03_165/0.62))]"
