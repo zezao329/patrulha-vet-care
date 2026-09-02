@@ -44,6 +44,7 @@ const servicos: Servico[] = [
     titulo: "Raio X, ultrassom e ECG",
     texto:
       "Exames de imagem agendados com especialistas parceiros, mantendo o acompanhamento do caso conosco do início ao fim.",
+    emBreve: true,
   },
   {
     icone: Scissors,
