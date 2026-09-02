@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 const numeros = [
   { valor: "1 ano", rotulo: "de experiencia" },
-  { valor: "+2.000", rotulo: "atendimentos realizados" },
+  { valor: "+500", rotulo: "atendimentos realizados" },
   { valor: "24h", rotulo: "estrutura de internação" },
 ];
 
