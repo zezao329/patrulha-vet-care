@@ -2,7 +2,7 @@ import equipeImg from "@/assets/equipe.jpg";
 import { Reveal } from "./Reveal";
 
 const numeros = [
-  { valor: "+8", rotulo: "anos de experiência clínica" },
+  { valor: "1 ano", rotulo: "de experiencia" },
   { valor: "+2.000", rotulo: "atendimentos realizados" },
   { valor: "24h", rotulo: "estrutura de internação" },
 ];
