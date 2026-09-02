@@ -77,11 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Patrulha Vet | Clínica Veterinária e Pet Shop em Iranduba" },
-      { name: "description", content: "Cuidar com amor é a nossa missão. Atendimento veterinário completo, higiene e bem-estar para o seu pet em Iranduba (AM)." },
       { name: "author", content: "Patrulha Vet" },
-      { property: "og:title", content: "Patrulha Vet" },
-      { property: "og:description", content: "Clínica veterinária e pet shop com atendimento especializado em Iranduba (AM)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
