@@ -92,15 +92,21 @@ export function Servicos() {
                 </span>
                 <h3 className="mt-5 text-lg font-extrabold text-ink">{s.titulo}</h3>
                 <p className="mt-3 flex-1 text-sm text-muted-foreground">{s.texto}</p>
-                <a
-                  href={waLink(`Olá! Quero agendar uma consulta para: ${s.titulo}.`)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-base btn-secondary mt-6 w-full text-sm"
-                  aria-label={`Agendar consulta para ${s.titulo}`}
-                >
-                  Agendar Consulta
-                </a>
+                {s.emBreve ? (
+                  <span className="btn-base mt-6 w-full cursor-default bg-muted text-sm text-muted-foreground">
+                    Em breve
+                  </span>
+                ) : (
+                  <a
+                    href={waLink(`Olá! Quero agendar uma consulta para: ${s.titulo}.`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-base btn-secondary mt-6 w-full text-sm"
+                    aria-label={`Agendar consulta para ${s.titulo}`}
+                  >
+                    Agendar Consulta
+                  </a>
+                )}
               </article>
             </Reveal>
           ))}
