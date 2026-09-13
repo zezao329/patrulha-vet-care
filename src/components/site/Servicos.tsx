@@ -3,7 +3,6 @@ import {
   Syringe,
   FlaskConical,
   Plane,
-  Activity,
   Scissors,
   Bath,
   Car,
@@ -38,13 +37,6 @@ const servicos: Servico[] = [
     titulo: "Atestado de viagem",
     texto:
       "Emissão dentro das exigências legais, com orientação sobre prazos e documentos para viajar com tranquilidade.",
-  },
-  {
-    icone: Activity,
-    titulo: "Raio X, ultrassom e ECG",
-    texto:
-      "Exames de imagem agendados com especialistas parceiros, mantendo o acompanhamento do caso conosco do início ao fim.",
-    emBreve: true,
   },
   {
     icone: Scissors,
