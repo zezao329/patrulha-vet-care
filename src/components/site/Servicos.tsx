@@ -93,7 +93,7 @@ export function Servicos() {
                     href={waLink(`Olá! Quero agendar uma consulta para: ${s.titulo}.`)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-base btn-secondary mt-6 w-full text-sm"
+                    className="btn-base btn-primary mt-6 w-full text-sm"
                     aria-label={`Agendar consulta para ${s.titulo}`}
                   >
                     Agendar Consulta
